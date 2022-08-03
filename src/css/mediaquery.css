@@ -19,6 +19,21 @@
   .content__img {
     width: 40%;
   }
+  header {
+    height: 60px;
+  }
+  .title__name {
+    font-size: 40px;
+  }
+  .title__logo {
+    width: 38px;
+    height: 38px;
+  }
+  .menu__modal {
+    top: 60px;
+    height: 55px;
+    font-size: 20px;
+  }
 }
 
 

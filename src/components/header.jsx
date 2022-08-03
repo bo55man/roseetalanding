@@ -11,7 +11,7 @@ function Header() {
     <>
     <header>
       <Link className="title" to="/">
-        <Logo width="40" height="40"/>
+        <Logo className="title__logo"/>
         <div className="title__name">Roseeta</div>
       </Link>
       <div className="info">
@@ -19,7 +19,7 @@ function Header() {
         <Link to="/team" className="info__nav">Team</Link>
         <Link to="/contact" className="info__nav">Contact</Link>
         <button onClick={ ()=>{ setMenu(!menu) } } className="info__menu">
-          <Icon icon="ant-design:menu-outlined" color="#ffffff" width="40" height="40"/>
+          <Icon icon="ant-design:menu-outlined" color="#ffffff" width="30" height="30"/>
         </button>    
       </div>
     </header>

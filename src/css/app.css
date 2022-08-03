@@ -41,7 +41,7 @@
   margin-bottom: 25px;
 } 
 .content__title--sub1 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin: 25px 0px 5px 0px;
   padding: 0px 5px;
@@ -49,7 +49,7 @@
   color: #ffffff;
 }
 .content__title--sub2 {
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 400;
   margin: 25px 0px 40px 0px;
   padding: 0px 5px;
@@ -57,7 +57,7 @@
 }
 
 p {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   margin: 15px 0px;
   line-height: 1.5;
@@ -108,7 +108,7 @@ p {
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.5;
 }
