@@ -1,0 +1,36 @@
+/*tablet*/
+@media all and (min-width:768px){
+  .content__sub {
+    flex-wrap: nowrap;
+  }
+  .input {
+    flex-flow: row nowrap;
+  }
+  .input__email {
+    width: 70%;
+  }
+  .input__submit {
+    width: 20%;
+  }
+  .content__info {
+    width: 55%;
+    margin: 0px 10px;
+  }
+  .content__img {
+    width: 40%;
+  }
+}
+
+
+/*PC*/
+@media all and (min-width:1024px){
+  .info__menu {
+    display: none;
+  }
+  .menu__modal {
+    display: none;
+  }
+  .info__nav {
+    visibility: visible;
+  }
+}

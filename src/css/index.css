@@ -1,0 +1,49 @@
+/*Google Noto-Sans fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/*import*/
+@import "reset.css";
+@import "app.css";
+@import "header.css";
+@import "footer.css";
+
+/*mediaquery*/
+@import "mediaquery.css";
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #efefef;
+  background-color: #141414;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  overflow-y:scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;  /* 스크롤바의 너비 */
+}
+body::-webkit-scrollbar-thumb {
+  height: 20%; /* 스크롤바의 길이 */
+  background: #303030; /* 스크롤바의 색상 */ 
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #141414;  /*스크롤바 뒷 배경 색상*/
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: #141414;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 30px 0px;
+  background-color: #141414;
+}
