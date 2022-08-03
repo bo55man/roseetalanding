@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { ReactComponent as Logo } from '../Roseeta.svg';
 import { dbService } from '../firebase';
 
+
 function App() {
 
   const [preorder, setPreOrder] = useState("")
@@ -41,11 +42,21 @@ function App() {
           <h3> 책을 웹에서 바로 만나보세요. </h3>
           <p> PDF, 전자책처럼 디바이스에 일일히 저장할 필요 없습니다. 웹 브라우저에서 빠르고 간편하게 열람하세요. </p>
         </div>
-        <img src="img/book-viewer.jpg" className="content__img"/>
+        <video
+        width="50%"
+        src="video/intro1.mov"
+        autoPlay
+        muted
+        loop></video>
       </div>
       <div className="content__divider"></div>
       <div className="content__sub">
-      <img src="img/bookmark.png" className="content__img"/>
+      <video
+        width="50%"
+        src="video/intro2.mov"
+        autoPlay
+        muted
+        loop></video>
         <div className="content__info">
           <h3> 인상적이었던 부분을 북마크에 저장하고<br/> 언제든 다시 찾아보세요. </h3>
           <p> 직관적으로 저장하고 주변에 공유하세요. </p>
@@ -57,7 +68,12 @@ function App() {
           <h3> 책의 유비쿼터스를 경험하세요. </h3>
           <p> 인터넷만 연결된다면 OK입니다. 언제 어디서든, 다양한 검색엔진과 디바이스에서 로제타와 함께 든든해지세요. </p>
         </div>
-        <img src="img/mobile.png" className="content__img"/>
+        <video
+        width="50%"
+        src="video/intro3.mov"
+        autoPlay
+        muted
+        loop></video>
       </div>
     </main>
     <Footer/>
