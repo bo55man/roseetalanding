@@ -43,17 +43,19 @@ function App() {
           <p> PDF, 전자책처럼 디바이스에 일일히 저장할 필요 없습니다. 웹 브라우저에서 빠르고 간편하게 열람하세요. </p>
         </div>
         <video
-        width="50%"
+        className="content__img"
         src="video/intro1.mov"
         autoPlay
+        playsInline
         muted
         loop></video>
       </div>
       <div className="content__divider"></div>
       <div className="content__sub">
       <video
-        width="50%"
+        className="content__img"
         src="video/intro2.mov"
+        playsInline
         autoPlay
         muted
         loop></video>
@@ -69,9 +71,10 @@ function App() {
           <p> 인터넷만 연결된다면 OK입니다. 언제 어디서든, 다양한 검색엔진과 디바이스에서 로제타와 함께 든든해지세요. </p>
         </div>
         <video
-        width="50%"
+        className="content__img"
         src="video/intro3.mov"
         autoPlay
+        playsInline
         muted
         loop></video>
       </div>
