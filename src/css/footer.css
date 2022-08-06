@@ -1,31 +1,48 @@
 .end {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-image: linear-gradient(
-    rgba(20,20,20,1), rgba(20,20,20,0.5), rgba(20,20,20,1)),
-    url("../../public/img/bookshelf.jpeg");
+    rgba(20,20,20,1), rgba(20,20,20,1));
   background-size: cover;
   object-fit: cover;
 }
+.roseeta__name {
+  font-size: 19px;
+  font-weight: 700;
+  padding-left: 15px;
+  color: #dddddd;
+  margin-bottom: 20px;
+}
 
+.roseeta__policy {
+  display: flex;
+  width: 100%;
+  justify-content: baseline;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #dddddd;
+  margin: 5px 0px 30px 0px;
+  box-sizing: border-box;
+}
+.roseeta__policy--detail {
+  margin-right: 20px;
+}
 .roseeta__info {
   width: 100%;
   height: auto;
   padding-left: 15px;
   box-sizing: border-box;
 }
-.roseeta__name {
-  font-size: 18px;
-  font-weight: 700;
-  color: #dddddd;
-}
+
 .roseeta__detail {
   font-size: 13px;
-  line-height: 0.6;
+  line-height: 1;
   color: #cccccc;
 }
 .roseeta__copyright {
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 700;
   color: #ffffff;
 }

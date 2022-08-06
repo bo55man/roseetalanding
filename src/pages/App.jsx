@@ -68,7 +68,7 @@ function App() {
       <div className="content__sub">
         <div className="content__info">
           <h3> 책의 유비쿼터스를 경험하세요. </h3>
-          <p> 인터넷만 연결된다면 OK입니다. 언제 어디서든, 다양한 검색엔진과 디바이스에서 로제타와 함께 든든해지세요. </p>
+          <p> 인터넷만 연결된다면 OK입니다. 언제 어디서든, 다양한 검색엔진과 디바이스에서 로제타와 함께하세요. </p>
         </div>
         <video
         className="content__img"
@@ -77,6 +77,25 @@ function App() {
         playsInline
         muted
         loop></video>
+      </div>
+      <div className="content__divider"></div>
+      <div className="content__sub">
+        <div className="content__info">
+          <h3> 이메일은 안전하게 보관됩니다. </h3>
+          <p> Google이 지원하는 Firebase DB에 암호화되어 보관됩니다.</p>
+        </div>
+        <img className="content__img" src="img/firebase.png" />
+      </div>
+      <div className="content">
+        <div className="content__title--sub1"> 지금 사전신청하고<br/> 출시 전 알림을 받아보세요. </div>
+        <div className="content__additional"> 제공해주신 이메일 정보는 알림 외 다른 목적으로 사용되지 않습니다. </div>
+        <form onSubmit={onSubmit} className="input">
+            <input 
+              value={preorder} 
+              onChange={onChange} 
+              className="input__email" type="email" placeholder="이메일 주소" name="email" maxLength={30}/>
+            <input className="input__submit" type="submit" value="사전신청 하기"/>
+        </form>
       </div>
     </main>
     <Footer/>

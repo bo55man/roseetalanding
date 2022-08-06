@@ -4,13 +4,13 @@ import "firebase/compat/firestore";
 import "firebase/compat/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCNGYiMShKr7Xd2sgv_uVWkKqFnDXJ3fWo",
-  authDomain: "roseeta-a8de3.firebaseapp.com",
-  projectId: "roseeta-a8de3",
-  storageBucket: "roseeta-a8de3.appspot.com",
-  messagingSenderId: "1078076134648",
-  appId: "1:1078076134648:web:d90cf335d4ca31da82170d",
-  measurementId: "G-X1XEBBF2P7"
+  apiKey: "AIzaSyBtWIV4xhYPN0xS7HcwgLkG-1E73hdIo0o",
+  authDomain: "roseeta-landing.firebaseapp.com",
+  projectId: "roseeta-landing",
+  storageBucket: "roseeta-landing.appspot.com",
+  messagingSenderId: "456243233064",
+  appId: "1:456243233064:web:67290800105de2af58501d",
+  measurementId: "G-EJB68K4LRG"
 };
 
 firebase.initializeApp(firebaseConfig);
