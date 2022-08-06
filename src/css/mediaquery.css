@@ -40,6 +40,9 @@
     height: 55px;
     font-size: 20px;
   }
+  .line-change {
+    display: none;
+  }
   h3 {
     font-size: 28px;
   }
