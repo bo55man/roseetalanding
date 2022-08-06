@@ -12,12 +12,22 @@
   .input__submit {
     width: 20%;
   }
+  .content__title {
+    font-size: 44px;
+  }
+  .content__title--sub1 {
+    font-size: 28px;
+  }
+  .content__title--sub2 {
+    font-size: 27px;
+  }
   .content__info {
-    width: 55%;
+    width: 47%;
     margin: 0px 10px;
   }
   .content__img {
-    width: 40%;
+    width: 47%;
+    margin: 0px 10px;
   }
   .title__name {
     font-size: 35px;
@@ -29,6 +39,12 @@
   .menu__modal {
     height: 55px;
     font-size: 20px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 22px;
   }
 }
 
@@ -43,5 +59,20 @@
   }
   .info__nav {
     visibility: visible;
+  }
+  .content__title {
+    font-size: 48px;
+  }
+  .content__title--sub1 {
+    font-size: 32px;
+  }
+  .content__title--sub2 {
+    font-size: 31px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 25px;
   }
 }

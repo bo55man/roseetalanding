@@ -80,11 +80,11 @@ function App() {
       </div>
       <div className="content__divider"></div>
       <div className="content__sub">
+        <img className="content__img" src="img/firebase.png" />
         <div className="content__info">
           <h3> 이메일은 안전하게 보관됩니다. </h3>
           <p> Google이 지원하는 Firebase DB에 암호화되어 보관됩니다.</p>
         </div>
-        <img className="content__img" src="img/firebase.png" />
       </div>
       <div className="content">
         <div className="content__title--sub1"> 지금 사전신청하고<br/> 출시 전 알림을 받아보세요. </div>
