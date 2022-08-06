@@ -26,8 +26,8 @@ function App() {
     <main>
       <div className="content">
         <h2 className="content__title"> 지식에 자유를 </h2>
-        <div className="content__title--sub1"> 검색 한번으로 간편하게 접근하고, <br className="line-change"/> 직관적으로 활용하세요.</div>
-        <div className="content__title--sub2"> 책 내용이 웹에서 바로 검색됩니다. </div>
+        <div className="content__title--sub1"> 책 내용이 웹에서 바로 검색됩니다. </div>
+        <div className="content__title--sub2"> 검색 한번으로 간편하게 접근하고, <br className="line-change"/> 직관적으로 활용까지.</div>
         <p> 지금 사전신청 하세요. </p>
         <form onSubmit={onSubmit} className="input">
           <input 
