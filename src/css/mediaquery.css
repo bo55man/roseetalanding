@@ -1,7 +1,11 @@
 /*tablet*/
 @media all and (min-width:768px){
+  .content {
+    padding: 100px 0px 140px 0px;
+  }
   .content__sub {
     flex-wrap: nowrap;
+    margin: 100px 0px
   }
   .input {
     flex-flow: row nowrap;
@@ -15,11 +19,11 @@
   .content__title {
     font-size: 44px;
   }
-  .content__title--sub1 {
+  .content__title--sub {
     font-size: 28px;
   }
   .content__title--sub2 {
-    font-size: 27px;
+    font-size: 20px;
   }
   .content__info {
     width: 47%;
@@ -66,11 +70,11 @@
   .content__title {
     font-size: 48px;
   }
-  .content__title--sub1 {
+  .content__title--sub {
     font-size: 32px;
   }
   .content__title--sub2 {
-    font-size: 31px;
+    font-size: 23px;
   }
   h3 {
     font-size: 32px;
