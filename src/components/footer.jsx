@@ -11,7 +11,7 @@ function Footer(){
       <Link to="/privacy" className="roseeta__policy--detail">개인정보처리방침</Link>
     </div>
     <div className="roseeta__info"> 
-      <p className="roseeta__detail">대표 : 정동인</p>
+      {/* <p className="roseeta__detail">대표 : 정동인</p> */}
       <p className="roseeta__detail">이메일 주소 : roseeta.cogito@gmail.com</p>
       <p className="roseeta__detail">주소 : 대한민국 서울특별시 성북구 안암로 145, 고려대학교 경영본관 218호</p>
       <p className="roseeta__detail">클라우드 호스팅 : Amazon Web Services Inc.</p>
